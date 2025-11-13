@@ -2,10 +2,19 @@
 
 namespace App\Controllers;
 
+
+
 class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+      
+
+        $usuarios = new \App\Models\RutaEstacionesModel();
+        $data['usuario'] = $usuarios->find(4);   
+
+        
+        
+        return view('welcome_message', $data);
     }
 }
