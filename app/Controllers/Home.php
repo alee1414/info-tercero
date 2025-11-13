@@ -10,7 +10,7 @@ class Home extends BaseController
     {
       
 
-        $usuarios = new \App\Models\RutaEstacionesModel();
+        $usuarios = new \App\Models\ViajesModel();
         $data['usuario'] = $usuarios->find(4);   
 
         

@@ -8,14 +8,14 @@ class TarifasModel extends Model
 {
     
     protected $table = 'Tarifas';
-    protected $primaryKey = 'ruta_estacion_id';
+    protected $primaryKey = 'tarifa_id';
     protected $returnType = 'array'; 
     
     protected $allowedFields = [
-        'ruta_estacion_id',
-        'ruta_id',
-        'estaciones_id',
-        'orden',
+        'tarifa_id',
+        'tipo_usuario',
+        'monto',
+        
         
     ];
 }
