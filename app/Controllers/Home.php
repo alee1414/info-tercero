@@ -17,4 +17,11 @@ class Home extends BaseController
         
         return view('welcome_message', $data);
     }
+
+
+    public function test()
+    {
+        echo "Exito";
+    }
+
 }
