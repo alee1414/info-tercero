@@ -1,0 +1,122 @@
+CRITICAL - 2025-11-14 17:36:35 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: camiones/]
+in SYSTEMPATH/BaseModel.php on line 1823.
+ 1 SYSTEMPATH/BaseModel.php(1823): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(804): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/Camiones.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->create()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:38:34 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: camiones/]
+in SYSTEMPATH/BaseModel.php on line 1823.
+ 1 SYSTEMPATH/BaseModel.php(1823): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(804): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/Camiones.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->create()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:41:34 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: PUT, Route: camiones/51]
+in SYSTEMPATH/BaseModel.php on line 1008.
+ 1 SYSTEMPATH/BaseModel.php(1008): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/Camiones.php(41): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:42:21 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: PUT, Route: camiones/51]
+in SYSTEMPATH/BaseModel.php on line 1008.
+ 1 SYSTEMPATH/BaseModel.php(1008): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/Camiones.php(41): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:43:14 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: PUT, Route: camiones/51]
+in SYSTEMPATH/BaseModel.php on line 1008.
+ 1 SYSTEMPATH/BaseModel.php(1008): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/Camiones.php(41): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:45:03 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: PUT, Route: camiones/51]
+in SYSTEMPATH/BaseModel.php on line 1823.
+ 1 SYSTEMPATH/BaseModel.php(1823): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(994): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Camiones.php(41): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:45:10 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: PUT, Route: camiones/51]
+in SYSTEMPATH/BaseModel.php on line 1823.
+ 1 SYSTEMPATH/BaseModel.php(1823): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(994): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Camiones.php(41): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:45:16 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: PUT, Route: camiones/51]
+in SYSTEMPATH/BaseModel.php on line 1823.
+ 1 SYSTEMPATH/BaseModel.php(1823): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(994): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Camiones.php(41): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 17:45:59 --> ParseError: syntax error, unexpected integer "0"
+[Method: PUT, Route: camiones/51]
+in APPPATH/Controllers/Camiones.php on line 42.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
