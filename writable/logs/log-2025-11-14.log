@@ -120,3 +120,23 @@ in APPPATH/Controllers/Camiones.php on line 42.
  8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
  9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
 10 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 18:05:31 --> Error: Call to undefined method App\Controllers\Camiones::senResponseToSend()
+[Method: PUT, Route: camiones/51]
+in APPPATH/Controllers/Camiones.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
+CRITICAL - 2025-11-14 18:12:41 --> Error: Call to undefined function App\Controllers\json()
+[Method: PUT, Route: camiones/51]
+in APPPATH/Controllers/Camiones.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Camiones->update()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/public/index.php')
